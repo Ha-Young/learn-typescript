@@ -8,6 +8,6 @@ let timeoutPromise = new Promise((resolve, reject) => {
 
 timeoutPromise.then(console.log);
 
-import add from "./utils";
+import add from "./utils.js";
 const returnVal = add(1, 2);
 console.log(returnVal);
