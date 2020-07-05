@@ -5,15 +5,9 @@ const defaultScore = 0;
 function outer() {
   if (true) {
     let score = 0;
+    score = 30;
+    score = "30";
   }
-
-  for (let i = 0; i < 3; i++) {
-    setTimeout(function () {
-      console.log(i);
-    }, 100);
-  }
-
-  console.log(score);
 }
 
 outer();
