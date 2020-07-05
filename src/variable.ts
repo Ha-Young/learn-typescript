@@ -3,9 +3,14 @@ let score2 = 200;
 const defaultScore = 0;
 
 function outer() {
-  function inner() {
-    var score = 0;
+  var score = 0;
+
+  for (var i = 0; i < 3; i++) {
+    setTimeout(function () {
+      console.log(i);
+    }, 100);
   }
+
   console.log(score);
 }
 
