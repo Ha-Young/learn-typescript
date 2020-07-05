@@ -3,9 +3,11 @@ let score2 = 200;
 const defaultScore = 0;
 
 function outer() {
-  var score = 0;
+  if (true) {
+    let score = 0;
+  }
 
-  for (var i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i++) {
     setTimeout(function () {
       console.log(i);
     }, 100);
