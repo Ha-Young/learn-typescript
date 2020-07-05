@@ -1,0 +1,19 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "learn typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ha-Young/learn-typescript.git"
+  },
+  "author": "ha-young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ha-Young/learn-typescript/issues"
+  },
+  "homepage": "https://github.com/Ha-Young/learn-typescript#readme"
+}
